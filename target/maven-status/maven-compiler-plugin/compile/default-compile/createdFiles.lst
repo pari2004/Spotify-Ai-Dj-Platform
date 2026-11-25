@@ -1,0 +1,10 @@
+com\spotify\dj\config\SecurityConfig.class
+com\spotify\dj\config\PasswordConfig.class
+com\spotify\dj\entity\User.class
+com\spotify\dj\config\JwtAuthenticationFilter.class
+com\spotify\dj\service\JwtService.class
+com\spotify\dj\SpotifyAiDjApplication.class
+com\spotify\dj\controller\AuthController.class
+com\spotify\dj\repository\UserRepository.class
+com\spotify\dj\controller\UserController.class
+com\spotify\dj\controller\HealthController.class

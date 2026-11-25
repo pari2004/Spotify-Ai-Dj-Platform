@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spotify AI DJ</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, sans-serif;
+      background: #101510;
+      color: #f5f7f5;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(ellipse at 50% 40%, #183b27, #101510 65%);
+    }
+
+    main {
+      max-width: 36rem;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .status {
+      display: inline-block;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid #45d483;
+      border-radius: 999px;
+      color: #45d483;
+      font-size: 0.85rem;
+    }
+
+    h1 {
+      margin: 1.5rem 0 0.75rem;
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      letter-spacing: -0.06em;
+    }
+
+    p {
+      color: #bdc8bf;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="status">Application is running</span>
+    <h1>Spotify AI DJ</h1>
+    <p>Your app is connected and ready. The DJ experience is coming soon.</p>
+  </main>
+</body>
+</html>
